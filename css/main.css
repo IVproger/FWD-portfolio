@@ -174,11 +174,9 @@ body {
   text-align: center;
   color: white;
   padding-bottom: 15px;
-  
-
 }
 
-.joke{
+.joke {
   color: white;
 }
 
@@ -186,7 +184,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   padding: 30px 0;
-  
 }
 
 .joke p {
@@ -205,12 +202,10 @@ body {
   transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
-
-
-
-
-
-
+.new_btn:hover,
+.new_btn:focus {
+  background-color: #373737;
+}
 
 /* Portfolio */
 

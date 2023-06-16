@@ -32,7 +32,7 @@ button.addEventListener("click", async() =>{
 
     // Cleaning up the data for loading the picture and sourse information
     const{alt} = data;
-    const{title} = data;
+    const{safe_title} = data;
     const{img} = data;
     const{day} = data;
     const{month} = data;
@@ -46,7 +46,7 @@ button.addEventListener("click", async() =>{
     image.alt = alt;
 
     const titleElement = document.createElement('h2');
-    titleElement.innerText = title;
+    titleElement.innerText = safe_title;
 
     const dateElement = document.createElement('p');
     dateElement.innerText = "Date of loading: "+dateOfLoading;

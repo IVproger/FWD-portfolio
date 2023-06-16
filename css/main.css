@@ -18,10 +18,8 @@ body {
   font-weight: 600;
 }
 
-
-
 .btn {
-  background-color:#070707;
+  background-color: #070707;
   display: inline-block;
   border-radius: 30px;
   padding: 7px 22px;
@@ -30,21 +28,16 @@ body {
   transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
-
-.btn:hover, .btn:focus {
-  background-color:#373737;
-  
+.btn:hover,
+.btn:focus {
+  background-color: #373737;
 }
-
 
 .btn:active {
   position: relative;
   top: 1px;
-  background-color:#000000;
-
+  background-color: #000000;
 }
-
-
 
 /* Header */
 
@@ -94,7 +87,6 @@ body {
 }
 .nav-button {
   display: none;
-
 }
 .nav-link:hover {
   color: #606060;
@@ -134,7 +126,7 @@ body {
 }
 
 .skills-layer-2 {
- padding-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .skills-row {
@@ -142,14 +134,11 @@ body {
   column-gap: 30px;
   row-gap: 60px;
   flex-wrap: wrap;
-
-
 }
 
 .skills-card {
   flex: 1 1 0;
   min-width: 315px;
-
 }
 
 .skills-title {
@@ -173,6 +162,56 @@ body {
   line-height: 2;
 }
 
+/* API */
+
+.API-experience {
+  background-color: #313131;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.API_title {
+  text-align: center;
+  color: white;
+  padding-bottom: 15px;
+  
+
+}
+
+.joke{
+  color: white;
+}
+
+.joke h2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 30px 0;
+  
+}
+
+.joke p {
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.new_btn {
+  background-color: white;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 7px 22px;
+  font-size: 18px;
+  color: black;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
 /* Portfolio */
 
 .portfolio {
@@ -186,11 +225,11 @@ body {
 }
 
 .project {
-    text-align: center;
+  text-align: center;
 }
 
 .project-img {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .project-title {
@@ -207,38 +246,27 @@ body {
 }
 
 /* Footer */
-.contacts{
+.contacts {
   padding: 90px 0;
   text-align: center;
-  
-
 }
 
-
-.contacts-title{
+.contacts-title {
   margin-bottom: 40px;
- 
-
 }
 
 .contacts-content {
   max-width: 480px;
   font-size: 18px;
   margin: 0 auto 40px;
-
-
 }
 
 .contacts-content p + p {
   margin-top: 1em;
 }
 
-
-
 .contacts-button {
   margin-bottom: 80px;
-  
-
 }
 
 .contacts-socials {
@@ -250,5 +278,5 @@ body {
 }
 
 .contacts-footer {
-  color:  #828282;
+  color: #828282;
 }

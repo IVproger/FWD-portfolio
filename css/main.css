@@ -290,3 +290,7 @@ body {
 .contacts-footer {
   color: #828282;
 }
+
+.img-contacts {
+  max-width: 60px;
+}

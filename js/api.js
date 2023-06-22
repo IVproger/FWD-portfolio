@@ -20,7 +20,7 @@ button.addEventListener("click", async() =>{
     const{safe_title} = data;
     const{img} = data;
     const{day} = data;
-    const{month} = data;
+    const{month} = data-1;
     const{year} = data;const date = new Date(year, month, day);
     const dateOfLoading = date.toLocaleDateString();
    
